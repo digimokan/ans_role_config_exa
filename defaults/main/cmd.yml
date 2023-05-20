@@ -9,7 +9,6 @@ exa_long_listing_cmd: >-
   --group-directories-first
   --binary
   --group
-  --created
   --modified
   --time-style=long-iso
 
