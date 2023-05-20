@@ -1,0 +1,14 @@
+# command to execute to run ls and print a long-listing (similar to "ls -la")
+exa_long_listing_cmd: >-
+  exa
+  --oneline
+  --grid
+  --long
+  --header
+  --group-directories-first
+  --binary
+  --group
+  --modified
+  --created
+  --time-style=iso
+

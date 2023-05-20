@@ -1,0 +1,7 @@
+- name: "Install main 'exa' package"
+  ansible.builtin.package:
+    name: exa
+    state: present
+  become: true
+  become_user: root
+
