@@ -4,6 +4,7 @@ exa_long_listing_cmd: >-
   --oneline
   --grid
   --long
+  --all
   --header
   --group-directories-first
   --binary
