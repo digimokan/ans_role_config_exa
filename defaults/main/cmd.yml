@@ -12,3 +12,12 @@ exa_long_listing_cmd: >-
   --modified
   --time-style=long-iso
 
+# command to print exa long-listing, and pipe to pager if listing > one screen
+exa_long_listing_auto_page_cmd: >-
+  {{ exa_long_listing_cmd }}
+  --color=always
+  |
+  less
+  --RAW-CONTROL-CHARS
+  --quit-if-one-screen
+
