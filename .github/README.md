@@ -53,7 +53,7 @@ Install and configure the exa ls-replacement utility.
        - name: "Install and configure the exa ls-replacement utility"
          ansible.builtin.include_role:
            name: ans_role_config_exa
-           public: yes
+           public: true
    ```
 
 ## Role Options
