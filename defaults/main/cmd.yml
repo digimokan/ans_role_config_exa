@@ -1,9 +1,11 @@
 # command to execute to run ls and print a long-listing (similar to "ls -la")
+# Note: passing '--all' twice makes exa list the '.' and '..' dirs
 exa_long_listing_cmd: >-
   exa
   --oneline
   --grid
   --long
+  --all
   --all
   --header
   --group-directories-first
