@@ -17,6 +17,8 @@ Install and configure the exa ls-replacement utility.
 ## Purpose
 
 * Install the [exa](https://the.exa.website/) ls-replacement utility.
+* Note: this role has been replaced by
+  [ans_role_config_eza](https://github.com/digimokan/ans_role_config_eza).
 
 ## Supported Operating Systems
 
